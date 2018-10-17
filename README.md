@@ -13,7 +13,7 @@
   - en la carpeta application/core creamos un fichero llamado 'MY_' lo que queramos '.php' en mi caso creamos 
     'MY_controller.php'.
   - Dentro de este archivo pegamos el siguiente código :
-  '''
+  ```
   <?php (defined('BASEPATH')) OR exit('Acceso denegado a scrip de entrada directa');
 
   class CommonController extends CI_Controller
@@ -48,4 +48,4 @@
         parent::__construct();
     }
   }
-  '''
+  ```
